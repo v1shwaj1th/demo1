@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/bc1294ba36.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo" />
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi, I'm <span>K Vishwajith</span></h1>
+                <p>and I'm a passionate</p>
+                <h3 id="element"></h3>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+
+    <!-- about.......................................................................................... -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-1">
+                    <img src="me.png " alt="" />
+                </div>
+                <div class="about-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
+                        culpa vitae veniam corporis, numquam atque est dicta labore
+                        exercitationem earum eius obcaecati libero laboriosam aliquid,
+                        aperiam reiciendis voluptatum. Unde cum soluta vel illum
+                        accusantium perferendis sit exercitationem obcaecati voluptas
+                        excepturi consequatur nulla blanditiis doloribus molestiae aut?
+                        Ipsa quae eaque magnam! id dolorum tenetur? Quisquam saepe
+                        officiis possimus qui.
+                    </p>
+
+                    <div class="tabtitle">
+                        <p class="tablinks active" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br />Designer Web/App interface</li>
+                            <li><span>Web Development</span><br />Web app Development</li>
+                            <li>
+                                <span>App Development</span><br />Building Android/iOS apps
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br />Lorem, ipsum dolor.</li>
+                            <li><span>2023</span><br />Lorem ipsum dolor sit.</li>
+                            <li><span>2024</span><br />Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2028</span><br>Designer Web/App interface</li>
+                            <li><span>2026</span><br />BTech CSE from VIT Chennai</li>
+                            <li>
+                                <span>2022</span><br />12th from Jayshree Periwal High School
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <!-- ...................services................................................................... -->
+
+    <div class="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="service-list">
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem aliquam nihil 
+                        magnam.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem aliquam nihil 
+                        magnam.</p>
+                    <a href="#">Learn More</a>   
+                </div>
+                
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem aliquam nihil 
+                        magnam.</p>
+                    <a href="#">Learn More</a>    
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ..........................portfolio............................................ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+
+                <div class="work">
+                    <img src="work1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App UI</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi 
+                            blanditiis cupiditate veniam deleniti voluptatum.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i> </a>
+                          
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App UI</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi 
+                            blanditiis cupiditate veniam deleniti voluptatum.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i> </a>        
+                    </div>                 
+                </div>
+
+                <div class="work">
+                    <img src="work3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App UI</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi 
+                            blanditiis cupiditate veniam deleniti voluptatum.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i> </a> 
+                    </div>    
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------------------------------contact----------------------------------------------------------------------------------------- -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p>contact@example.com</p>
+                    <p>0123456789</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <!-- <a href="" class="btn btn2" download>Download Resume</a>  pdf -->
+                </div>
+
+                <div class="contactright">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Mesage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> K Vishwajith</p>
+        </div>
+    </div>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="index.js"></script>
+</body>
+
+
+</html>
