@@ -1,5 +1,14 @@
-LEVEL 1 of OIBSIP is done 
+LEVEL 1 of OIBSIP 
 Files of Temperature converter, Portfolio, Landing page is uploaded here
+
+LANDING PAGE
+This project is a landing page designed to showcase a product or service. The landing page features a clean and visually appealing design with sections for an introduction, features, testimonials, and a call-to-action.
+
+TEMPERATURE CONVERTER
+The Temperature Converter is a simple web application that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin. It provides a user-friendly interface for inputting temperatures and viewing the converted results instantly.
+
+PORTFOLIO
+This project is a personal portfolio web application designed to showcase my work, skills, and experience. It includes sections for an about me, projects, skills, and contact information.
 
 LANDING PAGE PIC:
 ![Screenshot 2023-12-31 232151](https://github.com/v1shwaj1th/OIBSIP/assets/133970712/a076afc2-9069-4729-a685-1ee332fe7a77)
